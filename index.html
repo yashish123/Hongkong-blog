@@ -1,0 +1,199 @@
+<html>
+
+<head>
+    <title>Hong Kong Blog</title>
+</head>
+<script src="main.js">
+
+</script>
+<link href="style.css" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Lobster&display=swap"
+    rel="stylesheet">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<body>
+    <nav class="navbar-inverse nav_my_class">
+        <div class="navbar-header">
+            <button type="button" class="button-toggle"  data-toggle="collapse" data-target="#mynavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">World Of Travel</a>
+        </div>
+        <div class="collapse navbar-collapse" id="#mynavbar">
+            <ul class="nav navbar-nav">
+                <li><a href="#section1">Home</a></li>
+                <li><a href="#section2">About</a></li>
+                <li><a href="#section3">Best places</a></li>
+                <li><a href="#section4">Book Trip</a></li>
+                <li><a href="#section5">Location</a></li>
+
+            </ul>
+
+        </div>
+    </nav>
+
+    <div class="collapse navbar-collapse " id="#mynavbar"></div>
+
+    <section id=section1>
+        <div>
+            <br>
+            <br>
+            <span> <b>
+                    <h1>World Of Travel</h1>
+                </b></span>
+
+            <h1>welcomes You To</h1>
+            <h1>Hong Kong Travel Blog</h1>
+        </div>
+    </section>
+
+    <section id=section2>
+        <h1 id="About">About</h1>
+        <div class="line"></div>
+        <p>
+            Hong Kong, special administrative region of China, located to the east of the Pearl River (Zhu Jiang)
+            estuary on the south coast of
+            China. The region is bordered by Guangdong province to the north and the South China Sea to the east, south,
+            and west. It consists of Hong Kong Island, originally ceded by China to Great Britain in 1842, the southern
+            part of the Kowloon Peninsula and Stonecutters (Ngong Shuen) Island (now joined to the mainland), ceded in
+            1860, and the New Territories, which include the mainland area lying largely to the north, together with 230
+            large and small offshore islands—all of which were leased from China for 99 years from 1898 to 1997. The
+            Chinese-British joint declaration signed on December 19, 1984, paved the way for the entire territory to be
+            returned to China, which occurred July 1, 1997.
+
+
+            Skyline of Hong Kong.
+            © Tan Kian Khoon/Fotolia
+            The area of Hong Kong (Pinyin: Xianggang; Wade-Giles: Hsiang-kang) has expanded over the years, and it has
+            continued to grow as more land has been reclaimed from the surrounding sea. Hong Kong Island and its
+            adjacent islets have an area of only about 31 square miles (81 square km), while urban Kowloon, which
+            includes the Kowloon Peninsula south of Boundary Street, and Stonecutters Island measure about 18 square
+            miles (47 square km). The New Territories account for the rest of the area—more than 90 percent of the
+            total. The Victoria urban district located on the barren rocks of the northwestern coast of Hong Kong Island
+            is the place where the British first landed in 1841, and it has since been the centre of administrative and
+            economic activities.
+
+
+        </p>
+    </section>
+    <section id=section3>
+        <h1 id="Best plaes">Best Places to visit</h1>
+        <div class="line"></div>
+        <!-- Container for the image gallery -->
+        <div class="container">
+
+            <!-- Full-width images with number text -->
+            <div class="mySlides">
+                <div class="numbertext">1 / 6</div>
+                <img src="disneyland.jpeg" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+                <div class="numbertext">2 / 6</div>
+                <img src="Ocean Park Hong Kong Tickets (Advance Online Reservation for Park Entry Required).jpeg"
+                    style="width:100%">
+            </div>
+
+            <div class="mySlides">
+                <div class="numbertext">3 / 6</div>
+                <img src="tian-tan-big-buddha-hong-kong-lantau-island-666.jpeg" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+                <div class="numbertext">4 / 6</div>
+                <img src="stars.jpeg" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+                <div class="numbertext">5 / 6</div>
+                <img src="window-world-shenzhen-china-main-entrance-to-fabulous-replica-park-located-52413738.jpeg"
+                    style="width:100%">
+            </div>
+
+            <div class="mySlides">
+                <div class="numbertext">6 / 6</div>
+                <img src="1.jpeg" style="width:100%">
+            </div>
+
+            <!-- Next and previous buttons -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+            <!-- Image text -->
+            <div class="caption-container">
+                <p id="caption"></p>
+            </div>
+
+            <!-- Thumbnail images -->
+            <div class="row">
+                <div class="column">
+                    <img class="demo cursor" src="disneyland.jpeg" style="width:100%" onclick="currentSlide(1)"
+                        alt="Disney Land">
+                </div>
+                <div class="column">
+                    <img class="demo cursor"
+                        src="Ocean Park Hong Kong Tickets (Advance Online Reservation for Park Entry Required).jpeg"
+                        style="width:100%" onclick="currentSlide(2)" alt="Ocean Park">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="tian-tan-big-buddha-hong-kong-lantau-island-666.jpeg"
+                        style="width:100%" onclick="currentSlide(3)" alt="lantau buddha  ">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="stars.jpeg" style="width:100%" onclick="currentSlide(4)"
+                        alt="Avenue Of Stars">
+                </div>
+                <div class="column">
+                    <img class="demo cursor"
+                        src="window-world-shenzhen-china-main-entrance-to-fabulous-replica-park-located-52413738.jpeg"
+                        style="width:100%" onclick="currentSlide(5)" alt="windows of the world shenzhen">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="1.jpeg" style="width:100%" onclick="currentSlide(6)"
+                        alt="Wheel Of Hong Kong">
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section id=section4>
+        <h1 id="Book trip">Book Your Trip</h1>
+        <div class="line"></div>
+        <iframe src="https://www.yatra.com/international-tour-packages/holidays-in-hong-kong" height="650" width="100%"
+            title="Book package"></iframe>
+
+
+    </section>
+
+    <section id=section5>
+        <h1 id="Location">Location</h1>
+        <div class="line"></div>
+    
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d472323.8860633225!2d113.8475072266474!3d22.352482475031337!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3403e2eda332980f%3A0xf08ab3badbeac97c!2sHong%20Kong!5e0!3m2!1sen!2sin!4v1644899789841!5m2!1sen!2sin"
+            width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
